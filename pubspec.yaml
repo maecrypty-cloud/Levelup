@@ -1,16 +1,17 @@
+name: anime_habit_tracker
+description: A gamified anime-style habit tracker
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
-workflows:
-  flutter-app:
-    name: Anime Habit Tracker Build
-    environment:
-      flutter: stable
-    scripts:
-      - name: Navigate to Flutter project folder
-        script: cd anime_habit_tracker
-      - name: Get dependencies
-        script: flutter pub get
-      - name: Build APK
-        script: flutter build apk
-    artifacts:
-      - anime_habit_tracker/build/app/outputs/flutter-apk/app-release.apk
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
