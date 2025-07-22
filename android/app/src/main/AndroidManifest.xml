@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.habit.levelup"> <!-- ✅ Make sure this matches your app's real package name -->
+    package="com.maecrypty.levelup"> <!-- ✅ Make sure this matches your app's real package name -->
 
     <application
         android:label="app"
