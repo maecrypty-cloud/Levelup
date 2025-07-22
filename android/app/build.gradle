@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.example.levelup"
+    namespace "com.maecrypty.levelup"
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.example.levelup"
+        applicationId "com.maecrypty.levelup"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
