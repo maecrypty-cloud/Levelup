@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 
 android {
-    namespace "com.habit.levelup" // ✅ Change this to your actual package name
+    namespace "com.example.levelup"
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.habit.levelup" // ✅ Change this too
+        applicationId "com.example.levelup"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
@@ -21,7 +20,6 @@ android {
         }
     }
 }
-
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10"
 }
