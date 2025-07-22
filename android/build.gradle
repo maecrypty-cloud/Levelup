@@ -1,1 +1,4 @@
 // build.gradle placeholder
+minSdkVersion 21
+compileSdkVersion 33
+targetSdkVersion 33
